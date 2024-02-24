@@ -1,18 +1,11 @@
-// src/App.jsx
+// src/components/App.jsx
 
-const Product = () => {
-  return (
-    <div>
-      <h2>Cookies</h2>
-			<p>Price: 999 credits</p>
-    </div>
-  );
-};
+import Product from './Product';
 
 export default function App() {
   return (
     <div>
-      <h1>Products</h1>
+      <h1>Products cbdfhd</h1>
 
       <Product />
       <Product />
