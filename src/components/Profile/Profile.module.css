@@ -1,0 +1,66 @@
+.profilecard {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.profiledata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  height: auto;
+}
+.profileimg {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.profilename {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.profiletag,
+.profilelocation {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.profilelist {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+.profileitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 calc(100% / 3);
+}
+
+.profileitem:not(:last-child) {
+  border-right: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+.profiletitle {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(0, 0, 0);
+}
+.profiledigit {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(0, 0, 0);
+}

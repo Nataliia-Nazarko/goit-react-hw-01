@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  column-gap: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.item {
+  width: calc((100% - 40px) / 5);
+}
