@@ -1,5 +1,4 @@
 // src/components/App.jsx
-
 import "../components/App.css";
 import Profile from "./Profile/Profile.jsx";
 import userData from "../jsonComponents/userData.json";
